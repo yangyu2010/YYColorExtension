@@ -7,6 +7,7 @@
 //  /Users/yangyu/Desktop/HuaChuMall/私有库markdown/制作pod/YYColorExtension/YYColorExtension/YYColorExtension/ViewController.swift:10:8: File 'ViewController.swift' is part of module 'YYColorExtension'; ignoring import
 
 import UIKit
+import YYColorExtension
 
 class ViewController: UIViewController {
 

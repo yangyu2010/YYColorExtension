@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AC980967DED28BEA1F263C1C7C07DAA /* Pods-YYColorExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09935004632DAE49C318534D7EA418EA /* Pods-YYColorExtension-dummy.m */; };
+		618BF3D4816AD19BF4C1014F0C996E9A /* YYColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C600535F21B93116CD543B6A003C8 /* YYColorExtension.swift */; };
+		7F7B335B87E3DB5FDD36DCFE7EDA22F4 /* YYColorExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A21E7E025DCAF13346931AA5FBE0A04 /* YYColorExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A14371582F8F9990E7728BCD3D3F3B66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B1A50C3F4E97AA5D470EC6330FBA3CEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C4D0E05F152067FA26C5DF18D701B6E7 /* YYColorExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9260CEB9C16401C2D895B85B312B0466 /* YYColorExtension-dummy.m */; };
+		DD5DBF55A04ADC16D24282C22388EC0A /* Pods-YYColorExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6ABE2811EBFDE836C6E036A2A9619E0 /* Pods-YYColorExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4BBC5A8B202C595072132F99907560C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BC011B3080BAFC6B84A94190EC77DD5;
+			remoteInfo = YYColorExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09935004632DAE49C318534D7EA418EA /* Pods-YYColorExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YYColorExtension-dummy.m"; sourceTree = "<group>"; };
+		0C643D2497EE6AABBF080DD8A82275C0 /* Pods-YYColorExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYColorExtension.release.xcconfig"; sourceTree = "<group>"; };
+		0F2A9153F2158738499C31C45993A83B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17106DAA46F73FF50EE4F5DE2A2C8D96 /* Pods-YYColorExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YYColorExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1BC49D9D503A83C893FF67B371707B5D /* YYColorExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YYColorExtension.modulemap; sourceTree = "<group>"; };
+		2A21E7E025DCAF13346931AA5FBE0A04 /* YYColorExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYColorExtension-umbrella.h"; sourceTree = "<group>"; };
+		2F3C600535F21B93116CD543B6A003C8 /* YYColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YYColorExtension.swift; sourceTree = "<group>"; };
+		42AC145320363EF1017563A48138B4A4 /* Pods-YYColorExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYColorExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		4E4F6C2C78EB4D25A92A88B785440331 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558FB57A17909A67F28D77A908555372 /* YYColorExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYColorExtension-prefix.pch"; sourceTree = "<group>"; };
+		5BAC6D3A4D21C91EC1DDB34C54389147 /* Pods-YYColorExtension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YYColorExtension-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E9B894BF8C3F24F6CEA713F4FE5CFF2 /* Pods_YYColorExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YYColorExtension.framework; path = "Pods-YYColorExtension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9260CEB9C16401C2D895B85B312B0466 /* YYColorExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYColorExtension-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B74BCA8F9E03DF8F3FF35532D389682 /* YYColorExtension.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYColorExtension.xcconfig; sourceTree = "<group>"; };
+		C6ABE2811EBFDE836C6E036A2A9619E0 /* Pods-YYColorExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YYColorExtension-umbrella.h"; sourceTree = "<group>"; };
+		CA51221FF5F8AD997FFF3E40687DA12B /* Pods-YYColorExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYColorExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		D65FAE7D36A01E0E288DE8960DCAB299 /* YYColorExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYColorExtension.framework; path = YYColorExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEBED9568D8F979A6F78144182FD68D /* Pods-YYColorExtension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YYColorExtension-frameworks.sh"; sourceTree = "<group>"; };
+		ECCA464A5137293CB595CCB8141B3A5F /* Pods-YYColorExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YYColorExtension.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5641D8ACCB0BC234121FB87BCDFF3F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A50C3F4E97AA5D470EC6330FBA3CEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51CC1DE22397AFA2645582832F6D99B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14371582F8F9990E7728BCD3D3F3B66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C26478E4BAC231B58CA848FF4EEEE76 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E4F6C2C78EB4D25A92A88B785440331 /* Info.plist */,
+				1BC49D9D503A83C893FF67B371707B5D /* YYColorExtension.modulemap */,
+				9B74BCA8F9E03DF8F3FF35532D389682 /* YYColorExtension.xcconfig */,
+				9260CEB9C16401C2D895B85B312B0466 /* YYColorExtension-dummy.m */,
+				558FB57A17909A67F28D77A908555372 /* YYColorExtension-prefix.pch */,
+				2A21E7E025DCAF13346931AA5FBE0A04 /* YYColorExtension-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "YYColorExtension/Pods/Target Support Files/YYColorExtension";
+			sourceTree = "<group>";
+		};
+		4AE63676CE01D32B9B36C999953EBC53 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B087A2924397FB752CB2D45139E68E54 /* Pods-YYColorExtension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		53B321643D75835257CD29258EA6FD2E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2F3C600535F21B93116CD543B6A003C8 /* YYColorExtension.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D5B55F13155F1344E2237896CCF0532C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B3455133D722C4BD9AF25E6215DF5672 /* Products */,
+				4AE63676CE01D32B9B36C999953EBC53 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B087A2924397FB752CB2D45139E68E54 /* Pods-YYColorExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0F2A9153F2158738499C31C45993A83B /* Info.plist */,
+				ECCA464A5137293CB595CCB8141B3A5F /* Pods-YYColorExtension.modulemap */,
+				17106DAA46F73FF50EE4F5DE2A2C8D96 /* Pods-YYColorExtension-acknowledgements.markdown */,
+				CA51221FF5F8AD997FFF3E40687DA12B /* Pods-YYColorExtension-acknowledgements.plist */,
+				09935004632DAE49C318534D7EA418EA /* Pods-YYColorExtension-dummy.m */,
+				DBEBED9568D8F979A6F78144182FD68D /* Pods-YYColorExtension-frameworks.sh */,
+				5BAC6D3A4D21C91EC1DDB34C54389147 /* Pods-YYColorExtension-resources.sh */,
+				C6ABE2811EBFDE836C6E036A2A9619E0 /* Pods-YYColorExtension-umbrella.h */,
+				42AC145320363EF1017563A48138B4A4 /* Pods-YYColorExtension.debug.xcconfig */,
+				0C643D2497EE6AABBF080DD8A82275C0 /* Pods-YYColorExtension.release.xcconfig */,
+			);
+			name = "Pods-YYColorExtension";
+			path = "Target Support Files/Pods-YYColorExtension";
+			sourceTree = "<group>";
+		};
+		B3455133D722C4BD9AF25E6215DF5672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E9B894BF8C3F24F6CEA713F4FE5CFF2 /* Pods_YYColorExtension.framework */,
+				D65FAE7D36A01E0E288DE8960DCAB299 /* YYColorExtension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D5B55F13155F1344E2237896CCF0532C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD7570239198D97FD7849EDFF5674C8C /* YYColorExtension */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DD7570239198D97FD7849EDFF5674C8C /* YYColorExtension */ = {
+			isa = PBXGroup;
+			children = (
+				53B321643D75835257CD29258EA6FD2E /* Classes */,
+				3C26478E4BAC231B58CA848FF4EEEE76 /* Support Files */,
+			);
+			name = YYColorExtension;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B1E3BBF826759979564B7B12C698D6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5DBF55A04ADC16D24282C22388EC0A /* Pods-YYColorExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA92F5F8C4AE5014BCCE492C1C0809FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7B335B87E3DB5FDD36DCFE7EDA22F4 /* YYColorExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4BC011B3080BAFC6B84A94190EC77DD5 /* YYColorExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E6FE8D9A83362B49C61323EF9920DD /* Build configuration list for PBXNativeTarget "YYColorExtension" */;
+			buildPhases = (
+				A10A9F14206E78CF6718014D10D945E4 /* Sources */,
+				5641D8ACCB0BC234121FB87BCDFF3F57 /* Frameworks */,
+				EA92F5F8C4AE5014BCCE492C1C0809FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYColorExtension;
+			productName = YYColorExtension;
+			productReference = D65FAE7D36A01E0E288DE8960DCAB299 /* YYColorExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		751D4A9F3B327CA1B9026C5FBE91CF3E /* Pods-YYColorExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF91C80B5BFA76A58F3E1620C0B08EF9 /* Build configuration list for PBXNativeTarget "Pods-YYColorExtension" */;
+			buildPhases = (
+				8DD58D2B7635D6E1F80132EDEF7E9606 /* Sources */,
+				F51CC1DE22397AFA2645582832F6D99B /* Frameworks */,
+				0B1E3BBF826759979564B7B12C698D6C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFE39CB000FB1969D38A06A5DCA8F43B /* PBXTargetDependency */,
+			);
+			name = "Pods-YYColorExtension";
+			productName = "Pods-YYColorExtension";
+			productReference = 6E9B894BF8C3F24F6CEA713F4FE5CFF2 /* Pods_YYColorExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B3455133D722C4BD9AF25E6215DF5672 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				751D4A9F3B327CA1B9026C5FBE91CF3E /* Pods-YYColorExtension */,
+				4BC011B3080BAFC6B84A94190EC77DD5 /* YYColorExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD58D2B7635D6E1F80132EDEF7E9606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC980967DED28BEA1F263C1C7C07DAA /* Pods-YYColorExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10A9F14206E78CF6718014D10D945E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D0E05F152067FA26C5DF18D701B6E7 /* YYColorExtension-dummy.m in Sources */,
+				618BF3D4816AD19BF4C1014F0C996E9A /* YYColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFE39CB000FB1969D38A06A5DCA8F43B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYColorExtension;
+			target = 4BC011B3080BAFC6B84A94190EC77DD5 /* YYColorExtension */;
+			targetProxy = F4BBC5A8B202C595072132F99907560C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		54D4E4222846D9CF0BF42CE0C8B6007F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B74BCA8F9E03DF8F3FF35532D389682 /* YYColorExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYColorExtension/YYColorExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYColorExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYColorExtension/YYColorExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YYColorExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		920D6FB167E57593C09E019AE57033CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42AC145320363EF1017563A48138B4A4 /* Pods-YYColorExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YYColorExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YYColorExtension/Pods-YYColorExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YYColorExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92A1F2D187E97EE1EAB09AAAB1296E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B74BCA8F9E03DF8F3FF35532D389682 /* YYColorExtension.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYColorExtension/YYColorExtension-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYColorExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYColorExtension/YYColorExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YYColorExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C63C2C15C3909B0D5DF4C8195F393CB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C643D2497EE6AABBF080DD8A82275C0 /* Pods-YYColorExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YYColorExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YYColorExtension/Pods-YYColorExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YYColorExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E6FE8D9A83362B49C61323EF9920DD /* Build configuration list for PBXNativeTarget "YYColorExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A1F2D187E97EE1EAB09AAAB1296E17 /* Debug */,
+				54D4E4222846D9CF0BF42CE0C8B6007F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF91C80B5BFA76A58F3E1620C0B08EF9 /* Build configuration list for PBXNativeTarget "Pods-YYColorExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920D6FB167E57593C09E019AE57033CD /* Debug */,
+				C63C2C15C3909B0D5DF4C8195F393CB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

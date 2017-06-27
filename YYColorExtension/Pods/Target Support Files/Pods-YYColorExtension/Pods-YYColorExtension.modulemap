@@ -1,0 +1,6 @@
+framework module Pods_YYColorExtension {
+  umbrella header "Pods-YYColorExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

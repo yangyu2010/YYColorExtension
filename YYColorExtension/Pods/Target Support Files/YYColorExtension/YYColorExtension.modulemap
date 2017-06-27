@@ -1,0 +1,6 @@
+framework module YYColorExtension {
+  umbrella header "YYColorExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

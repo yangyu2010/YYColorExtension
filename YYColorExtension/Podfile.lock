@@ -1,0 +1,16 @@
+PODS:
+  - YYColorExtension (0.0.1)
+
+DEPENDENCIES:
+  - YYColorExtension (from `../`)
+
+EXTERNAL SOURCES:
+  YYColorExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YYColorExtension: f3bf7ce880b85d9691c56f13ed5b5bedad8bfa7d
+
+PODFILE CHECKSUM: 2230b5e90d0b312d1f2afc34f58f75bad27d7b11
+
+COCOAPODS: 1.2.1
